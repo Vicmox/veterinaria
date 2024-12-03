@@ -3,7 +3,7 @@ define('APP_NAME', 'Sistema de Información Clínica Veterinaria PETS HOME');
 define('SERVIDOR', 'mysql.railway.internal'); // Cambia por el hostname proporcionado por Railway
 define('USUARIO', 'root');
 define('PASSWORD', 'DB_PASS'); // Reemplaza con la contraseña correcta
-define('BD', 'clinicaveterinaria');
+define('BD', 'railway');
 
 $conexion = mysqli_connect(SERVIDOR, USUARIO, PASSWORD, BD);
 
